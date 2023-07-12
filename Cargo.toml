@@ -1,0 +1,14 @@
+[package]
+name = "aulog"
+authors = ["CC <jiac13@chinaunicom.cn"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["audit", "log"]
+description = "A tool to access and read audit log."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4", features = ["cargo"] }
+libc = { version = "0.2" }
